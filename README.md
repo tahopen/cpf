@@ -15,7 +15,4 @@ This is a maven project, and to build it use the following command
 ```
 mvn clean install
 ```
-The build result will be a Pentaho Plugin located in *core/target/cpf-core-**.jar *pentaho/target/cpf-pentaho-**.jar and . Then, this package can be resolved by other CTools build and used in their runtime.
-
-
-For issue tracking and bug report please use http://jira.pentaho.com/browse/CDF. Its master branch is built upon commit merges in Jenkins Continuous Integration located in http://ci.pentaho.com/job/cpf-plugin/
+The build result will be a Tahopen Plugin located in *core/target/cpf-core-**.jar *tahopen/target/cpf-tahopen-**.jar and . Then, this package can be resolved by other CTools build and used in their runtime.
