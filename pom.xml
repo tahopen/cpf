@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-bundle-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen</groupId>
@@ -21,21 +21,7 @@
     <module>osgi</module>
     <module>rca</module>
   </modules>
-<!--
-  <scm>
-    <connection>scm:git:git@github.com:webdetails/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:webdetails/${project.artifactId}.git</developerConnection>
-    <url>scm:git:git@github.com:webdetails/${project.artifactId}.git</url>
-  </scm>
 
-  <distributionManagement>
-    <site>
-      <id>pentaho.public.snapshot.repo</id>
-      <name>${project.artifactId}-${project.version}</name>
-      <url>dav:${site.publish.url}/${project.groupId}/cpf-plugin-${project.version}</url>
-    </site>
-  </distributionManagement>
--->
   <properties>
     <commons-vfs.version>1.0</commons-vfs.version>
     <commons-io.version>2.1</commons-io.version>
@@ -56,9 +42,9 @@
     <jersey.version>1.19.1</jersey.version>
     <jcr.version>2.0</jcr.version>
     <owasp.encoder.version>1.2</owasp.encoder.version>
-    <pentaho-json.version>0.1.0.0-SNAPSHOT</pentaho-json.version>
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
-    <mondrian.version>0.1.0.0-SNAPSHOT</mondrian.version>
+    <pentaho-json.version>0.1.0.0</pentaho-json.version>
+    <platform.version>0.1.0.0</platform.version>
+    <mondrian.version>0.1.0.0</mondrian.version>
     <rhino.version>1.7.13</rhino.version>
     <mockito.version>1.10.19</mockito.version>
     <powermock.version>1.7.3</powermock.version>
