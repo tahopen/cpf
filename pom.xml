@@ -368,13 +368,5 @@
     </pluginManagement>
   </build>
 
-  <repositories>
-
-  </repositories>
-
-  <pluginRepositories>
-
-  </pluginRepositories>
-
 
 </project>
